@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Walking</string>
+    <string name="unspport_message_type">暂不支持此消息类型</string>
+    <string name="hint_password">请输入密码</string>
+    <string name="hint_username">请输入用户名</string>
+    <string name="hint_register_username">请输入用户名</string>
+    <string name="start">开始</string>
+    <string name="register">注册新账号</string>
+    <string name="forget">忘记密码</string>
+    <string name="tip_error_username_password">用户名或密码不正确！</string>
+</resources>

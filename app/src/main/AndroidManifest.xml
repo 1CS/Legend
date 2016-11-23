@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest package="com.game.legend"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+
+    <application
+        android:name="com.game.legend.App"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name="com.game.legend.mvp.activity.MainActivity"/>
+        <activity android:name="com.game.legend.mvp.activity.LoginActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity android:name="com.game.legend.mvp.activity.RegisterActivity"/>
+
+        <meta-data
+            android:name="UMENG_APPKEY"
+            android:value="5823cda7677baa6c640004a2"/>
+        <meta-data
+            android:name="UMENG_CHANNEL"
+            android:value=""/>
+    </application>
+</manifest>
